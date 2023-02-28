@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 900px;
+    background-color:darkslategrey;
+    margin:  0 auto;
+    padding: 20px;
+}
+.profile-image{
+    height: 120px;
+    width: 100px;
+    border: 3px solid wheat;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color:gold;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+/*-------------------
+persional section start
+---------------------*/
+#persinal-section{
+
+}
+.content{
+
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+
+}
+.right-div{
+    width: 70%;
+    float:left;
+    color:white;
+    font-weight:bolder;
+}
+.common-hr{
+
+    border: solid black 1px  ;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+}
+.edu-tem-left{
+    float: left;
+    width: 65%;
+}
+.edu-tem-right{
+    float: right;
+    width: 5%;
+}
+.bottom-container{
+
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+.bottom-container a{
+
+        color: white;
+        text-decoration: none;
+}
+.bottom-container p{
+
+    color: white;
+    text-decoration: none;
+}
